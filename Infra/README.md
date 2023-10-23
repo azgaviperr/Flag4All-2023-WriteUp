@@ -73,7 +73,7 @@ Nous avons également utilisé un bucket S3 pour les besoins de déploiements ma
 
 ### Hébergement
 
-Nous avons choisis Scaleway pour l'hébergement (aucun partenariat en cours). Ils ont toutes une gamme de services intéressant dans des prix contenus, et surtout, une API très complète et bien documentée.
+Nous avons choisis Scaleway pour l'hébergement (aucun partenariat en cours). Ils ont toute une gamme intéressante de services dans des prix contenus, et surtout, une API très complète et bien documentée.
 Sans parler de leur provider Terraform, qui est lui aussi complet et documenté.
 
 ### Supervision et Métriques
@@ -82,15 +82,18 @@ Nous avons utilisé la solution Cockpit de Scaleway. (Graphana, Loki, ...)
 
 ### Infrastructure As Code
 
-BZHack organise des CTF pour les écoles, les entreprises, et pour le plaisir de tous. Nous avons donc régulièrement besoin de monter des ifnrastructures.
-Etant une association de volontaire, nous pouvons difficilement passer des temps infinies à déployer des environnement.
-C'est pourquoi nous avons commencé à créer des template, pour simplifier la mise en place des événements. L'avantage de l'IAC, c'est qu'il est aussi simple de construire et de détruire les environnements ( attention à n pas glisser en prod). 
-Le cloud est merveilleux mais peu coûter cher pouvoir s'assurer de décommissioner ce qui a été montée est indispensable si on ne veut pas mettre l'association dans le rouge.
+BZHack organise des CTF pour les écoles, les entreprises, et pour le plaisir de tous. Nous avons donc régulièrement besoin de monter des infrastructures.
+Etant une association de volontaires, nous pouvons difficilement passer des temps infinis à déployer des environnements.
+C'est pourquoi nous avons commencé à créer des template, pour simplifier la mise en place des événements. 
+L'avantage de l'IAC, c'est qu'il est aussi simple de construire et de détruire les environnements ( attention à ne pas glisser en prod). 
 
-De plus, cette flexibilité permet de faire des environnements de preprod sous dimensionnés pour les tests et de passer à l'iunfrastructure cible en changeant une valeur de variable.
+Le cloud est merveilleux mais peu coûter cher. 
+Pouvoir s'assurer de décommissioner ce qui a été monté est indispensable si on ne veut pas mettre l'association dans le rouge.
+
+De plus, cette flexibilité permet de faire des environnements de preprod sous dimensionnés pour les tests et de passer à l'infrastructure cible en changeant une valeur de variable.
 (réduction des coûts et gestion de charge plus simple)
 
-Il existe de nombreuses solution pour faire de l'IAC: Ansible, Pulumi, Terraform. 
+Il existe de nombreuses solutions pour faire de l'IAC: Ansible, Pulumi, Terraform. 
 
 Ayant plus d'expérience avec Terraform et appréciant ça gestion des états, c'est sur cette solution que nous nous sommes appuyé pour déployer les environnements.
 
