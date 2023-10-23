@@ -150,13 +150,13 @@ Apprentissage : Améliorer le clustering CTFD ou passer sur un autre framework.
 2h25 - Toute l'infra est Down.
 ![discord_oups](discord_oups.png)
 
-Le pire, c'est que cette incident majeure sur l'infrastructure était délibérée . Présentation de ce que l'on appellera dorénavant "l'événement INIT 6". 
+Le pire, c'est que cette incident majeur sur l'infrastructure était délibéré . Présentation de ce que l'on appellera dorénavant "l'événement INIT 6". 
 
 L'infrastructure tenait plutôt bien la charge est nous avons commencé à avoir une discussion avec Penthium2, Sanguine et les autres sur "ça tient, mais est-ce que c'est vraiment résiliant".
 
 Ma réponse a été de dire: "Tant qu'un nœud ne tombe pas, pas vraiment possible dans être sûr, théoriquement on est bon!"
 
-Penthium2 s'est donc connecté sur le nœuds avec le plus de service critique et à tapé la commande ``` init 6``` .
+Penthium2 s'est donc connecté sur le nœuds avec le plus de service critique et a tapé la commande ``` init 6``` .
 
 Un petit " Sanguine, appuie sur Enter!" a fait le reste.
 
@@ -197,13 +197,13 @@ La plateforme a été indisponible 13 minutes sur les 24 heures de la compétiti
 
 ((24*60)-13)/(24*60) = 99.09%
 
-
 ### Quel projet pour le futur
 
 * Du code Terraform compatible multiple fournisseur (SCALEWAY, OVH, etc.)
 * Supprimer les quelques actions encore manuelle du déploiement.
 * Rendre le code OpenSource pour en faire profiter les écoles et autres associations.
 * atteindre un SLA de 99,99% - 1m 26s d'indispo sur 24h.
+* être capable de recréer l'infra et importer l'état sur une toute nouvelle infra à la demande.
 * Améliorer encore la qualité des challenges fournis pour ne pas avoir à les améliorer/réparer dans leur contenu (uniquement description ou tips si besoin).
 
 
