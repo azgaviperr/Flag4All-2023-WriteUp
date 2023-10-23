@@ -119,3 +119,7 @@ ce script prend en entré le fichier avec la base et le fichier en clair
 # FLAG :
 
 	FLAG{B4sE_Hide_Fl4g}
+
+# Auteur : 
+
+Penthium2
