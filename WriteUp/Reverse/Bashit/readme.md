@@ -123,4 +123,12 @@ read
 IFS=' \t\n'
 echo $decode |sed 's#/##g'
 ```
-scipt mis a disposition sous le nom : shit_ba.sh
+script mis a disposition sous le nom : shit_ba.sh
+
+# FLAG :
+
+    FLAG{H0_My_B4sH}
+
+# Auteur : 
+
+Penthium2
