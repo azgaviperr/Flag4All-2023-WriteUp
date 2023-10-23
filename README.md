@@ -2,5 +2,4 @@
 
 Ce git contiendra uniquement les WriteUps des challenges créés par les membres de BZHack
 
-[Infra Retex](Infra/Infra.md)
-
+[Infra Retex](Infra/Infra.md) - Auteur Azgarech
