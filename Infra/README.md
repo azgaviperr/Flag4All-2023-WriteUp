@@ -220,3 +220,10 @@ Quand ça va manger ou dormir
 ça grimpe là! Non ?
 
 ![allerplushaut](allerplushaut.png)
+
+
+##### END
+
+Merci à tous (Orga, partenaires, joueurs) pour ce super temps !
+
+Azgarech
